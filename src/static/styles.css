@@ -111,18 +111,16 @@ section h3 {
 }
 
 .delete-btn {
-  background: none;
-  border: none;
-  color: #c62828;
+  background-color: #c62828;
+  color: white;
   cursor: pointer;
-  font-size: 14px;
-  padding: 2px 5px;
-  transition: all 0.2s;
-  border-radius: 3px;
+  font-size: 13px;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 .delete-btn:hover {
-  background-color: #ffebee;
+  background-color: #a51d1d;
 }
 
 .participants-section p {
@@ -190,6 +188,42 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+#teacher-session {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+#teacher-session.hidden {
+  display: none;
+}
+
+#login-message,
+#message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#signup-form {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+#signup-form h4 {
+  margin-bottom: 15px;
+  color: #1a237e;
+}
+
+#access-note {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
 }
 
 footer {
